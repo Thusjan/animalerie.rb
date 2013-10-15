@@ -52,6 +52,7 @@ class Poisson
   def mangeable?(nourriture)
     if (nourriture.class == Lion)
       false
+    end
   end
 end
 
