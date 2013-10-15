@@ -50,9 +50,12 @@ class Poisson
   end
 
   def mangeable?(nourriture)
-    if (nourriture.class == Lion)
+    if (nourriture.class == Lion || nourriture.class == Canard )
       false
+    else
+      true
     end
+   
   end
 end
 
