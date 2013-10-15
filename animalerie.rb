@@ -48,8 +48,10 @@ class Poisson
       puts "Je ne peux pas"
     end
   end
-  
+
   def mangeable?(nourriture)
+    if (nourriture.class == Lion)
+      false
   end
 end
 
