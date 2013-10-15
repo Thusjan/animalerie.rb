@@ -48,6 +48,7 @@ class Poisson
       puts "Je ne peux pas"
     end
   end
+  
   def mangeable?(nourriture)
   end
 end
